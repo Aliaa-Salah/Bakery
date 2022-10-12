@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.main-paragh {
+    font-size: 17px;
+    color: #686868;
+}
+
+.main-head {
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.home {
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+}
+
+.navbar {
+    color: rgb(252, 252, 252);
+}
+
+.navbar-logo {
+    width: 190px;
+    display: inline-block;
+    padding: 20px 70px;
+
+}
+
+.navbar img {
+    width: 100%;
+}
+
+.navbar-list {
+    display: inline-block;
+
+}
+
+.navbar-list ul {
+    padding-left: 150px;
+    margin-left: 350px;
+
+}
+
+.navbar-list ul li {
+    padding-right: 20px;
+    display: inline;
+    font-family: 'Alegreya', serif;
+
+}
+
+.header {
+
+    width: 70%;
+    margin: 130px auto 50px auto;
+    text-align: center;
+    color: white;
+}
+
+.header-content h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+
+}
+
+.header-content h5,
+.header-content h1,
+.header-content p,
+.header-content .header-btns {
+    padding: 15px 0;
+}
+
+.header-content p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.header-btns button {
+    padding: 15px 28px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.learn-btn {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    margin-right: 15px;
+    transition: background-color 1s, border 1s;
+}
+
+.learn-btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: background-color 1s, border 1s;
+}
+
+.contact-btn:hover {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+
+.item-container {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.item-pic {
+    width: 47%;
+    float: left;
+}
+
+.item-pic img {
+    width: 100%;
+}
+
+.item-text {
+    width: 47%;
+    float: right;
+    padding: 10px;
+    color: #686868;
+}
+
+
+
+.item-text p {
+    line-height: 30px;
+}
+
+
+
+.clearfix {
+    clear: both;
+}
+
+
+.item-text ul li {
+    display: block;
+    padding: 20px 0;
+}
+
+.section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.section-container {
+    width: 80%;
+    margin: auto;
+}
+
+.section-pic {
+    width: 45%;
+    float: right;
+}
+
+.section-pic img {
+    width: 100%;
+}
+
+.section-text {
+    width: 55%;
+    float: left;
+    margin: 55px 0;
+
+}
+
+.section-text p {
+    line-height: 30px;
+}
+
+.baking {
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+
+.center-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.center {
+    background-color: rgb(253, 255, 254);
+    width: 30%;
+    display: inline-block;
+    margin-right: 25px;
+    padding-bottom: 70px;
+
+}
+
+.center .main-head {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.center img {
+    width: 100%;
+}
+
+.center h3 {
+    text-align: center;
+}
+
+.center p {
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+.All-text {
+    background-color: #403d38;
+
+}
+
+.All-text p {
+    font-size: 16px;
+    color: #969696;
+
+}
+
+.bgr-map {
+    background-image: url('contact-details-map.png') no-repeat;
+}
+
+.text-container {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.text {
+    width: 22%;
+    float: left;
+    padding-right: 35px;
+    line-height: 45px;
+
+}
+
+.first-p {
+    line-height: 30px;
+}
+
+.text-pad {
+
+    margin-top: -20px;
+}
+
+.text h4 {
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+}
+
+.special p {
+    border-bottom: 1px solid #686868;
+}
+
+.contact {
+    background-color: #f8f8f8;
+}
+
+.contact-container {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+
+.contact-text {
+    width: 44%;
+    float: left;
+}
+
+.contact-text p {
+    line-height: 30px;
+}
+
+.contact-pic {
+    width: 45%;
+    float: right;
+}
+
+.footer-container {
+    background-color: #353330;
+}
+
+.footer-content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #969696;
+
+}
+
+.pad-p {
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .center,
+    .text-container .text {
+        width: 100%;
+    }
+
+    .text-container .text-pad {
+        padding-top: 20px;
+    }
+
+    .item-pic,
+    .item-text {
+        width: 100%;
+    }
+
+    .section-text,
+    .section-pic,
+    .contact-text,
+    .contact-pic {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    .center,
+    .text-container .text {
+        width: 50%;
+    }
+
+    .text-container .text-pad {
+        padding-top: 20px;
+    }
+
+    .item-pic,
+    .item-text {
+        width: 100%;
+    }
+
+    .section-text,
+    .section-pi,
+    .contact-text,
+    .contact-pic {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .center {
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .center {
+        width: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.sectionA {
+    background-color: rgb(98, 98, 44);
+}
+
+.section-pic img {
+    width: 40%;
+    display: inline-block;
+}
+
+.section-text {
+    width: 60%;
+    display: inline-block;
+}
+
+.list-icon {
+    display: inline-block;
+}
+
+.list-icon ul {
+    list-style-type: none;
+
+}
+
+.list-icon ul li {
+    width: 50%;
+    display: inline-block;
+}*/
